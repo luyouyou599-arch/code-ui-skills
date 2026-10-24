@@ -14,6 +14,20 @@
 
 只将有实际开发价值且已核验适用性的内容提炼为技能；不以覆盖作品数量为目标。基础知识不因发布时间早就判为过时，资讯和无工程增量的内容不进入技能。
 
+## 前端与后端入口
+
+按任务选择入口，由入口根据实际改动读取有关知识点。知识仍统一维护，跨端或工程通用技能不复制两份。
+
+| 分类 | 入口 | 自动选择的知识点 |
+| --- | --- | --- |
+| 前端 | [frontend-development-review](skills/frontend-development-review/SKILL.md) | 页面视觉、交互状态、请求与响应、登录交互和相关任务依赖 |
+| 后端 | [backend-development-review](skills/backend-development-review/SKILL.md) | 接口边界、业务不变量、访问授权、SQL/ORM、事务、缓存/异步、运行与发布 |
+| 通用工程与维护 | Git、依赖编排、资料整理等下方主题技能 | 按具体任务使用，前后端共享 |
+
+后端入口在开发时主动选取相关检查，在验收时以具体代码、失败场景、测试和副作用寻找 bug 或漏洞；发现问题后按任务授权修复或报告。仅做静态审阅、测试未运行或范围未覆盖时明确说明，检查通过不等于项目没有任何缺陷。
+
+本机安装入口及有关主题技能后，可明确要求“使用 backend-development-review 开发并验收这个接口”或“使用 frontend-development-review 检查这次页面改动”。准确的描述也支持 Codex 按任务自动选择；实际选择取决于会话发现的技能与任务上下文，安装本身不会在其他工具或流水线中自动执行检查。仅复制入口目录不包含全部主题知识，跨设备使用需同时安装依赖主题。
+
 ## 内容组织
 
 - `sources/`：有真实资料后创建，保存来源笔记及引用位置。
@@ -46,6 +60,8 @@
 
 | 技能 | 用途 | 状态 |
 | --- | --- | --- |
+| [frontend-development-review](skills/frontend-development-review/SKILL.md) | 前端开发与验收按需调用入口 | 已做结构与路由检查，未在真实项目试用 |
+| [backend-development-review](skills/backend-development-review/SKILL.md) | 后端开发与验收按需调用入口 | 已做结构与路由检查，未在真实项目试用 |
 | [curate-programming-ui](skills/curate-programming-ui/SKILL.md) | 将编程、UI 资料分类、提炼并整合为技能 | 已用于首份视频资料整理，未完成独立执行测试 |
 | [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 开发请求与页面加载功能时检查关键决策、遗漏项，并拆解项目实现与依据 | 已核对资料和结构，尚未在真实开发项目中验证 |
 | [git-change-checkpoints](skills/git-change-checkpoints/SKILL.md) | 提交、同步、整合与撤销的场景决策 | 资料与结构检查，部分命令行为实验 |
