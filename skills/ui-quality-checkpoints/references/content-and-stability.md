@@ -10,3 +10,9 @@
 2026-10-24 核对：[MDN font-variant-numeric](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric)、[WCAG 非文本对比](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)。后者针对识别组件/状态所必需的视觉信息等有适用范围和例外，并非每个装饰面都必须套同一比例。
 
 网络媒体：[AI UI 四类问题](https://www.xiaohongshu.com/explore/6adb50aa000000003103b999)、[客户端细节五条](https://www.xiaohongshu.com/explore/6ad9090e000000002403ab93)，仅完整正文已读，未取得其提及源码和完整提示词。上表为整理者工程化补充，未运行真实页面验证。
+
+## 按任务安排操作层级
+
+在结算、提交或重要确认页，先列出用户当前需要核对的对象、金额、时间等事实，再决定主操作与次要内容的权重。促销、会员、推荐可按场景收起或降低层级，但不能连必要确认信息一起删掉。界面简洁程度不按元素数量判断。
+
+验证真实任务下主操作是否易辨认，必要条件是否仍可见，展开细节与窄屏内容是否遮挡主操作；不能以视觉检查声称转化率提高。网络媒体 [结算页操作层级](https://www.xiaohongshu.com/explore/6ad8ad3d0000000024034b92)，2026-10-24 完整配文已读，视频未完整读取；以上验证为工程补充。

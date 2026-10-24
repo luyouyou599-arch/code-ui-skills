@@ -1,6 +1,6 @@
 # 网络媒体来源索引
 
-按开发主题整合不同来源，保留必要的原文链接、读取范围与技能去向。累计精选 69 份来源，实际读取范围包括正文、图文及视频概览帧或局部片段，详见主题笔记，不代表所有视频完整观看。重复主题优先合并，来源数量不作为质量指标。
+按开发主题整合不同来源，保留必要的原文链接、读取范围与技能去向。累计精选 81 份来源，实际读取范围包括正文、图文及视频概览帧或局部片段，详见主题笔记，不代表所有视频完整观看。重复主题优先合并，来源数量不作为质量指标。
 
 | 主题 | 合并笔记 | 来源数 | 技能去向 |
 | --- | --- | --- | --- |
@@ -28,6 +28,9 @@
 | 加载反馈选择与禁用原因 | [loading-feedback-selection.md](loading-feedback-selection.md) | 2 | [ui-interaction-checkpoints](../skills/ui-interaction-checkpoints/SKILL.md) |
 | 多租户检索与上下文隔离 | [tenant-context-isolation.md](tenant-context-isolation.md) | 1 | [auth-access-checkpoints](../skills/auth-access-checkpoints/SKILL.md) |
 | 可见目标与标签热区 | [visible-and-clickable-targets.md](visible-and-clickable-targets.md) | 1 | [ui-interaction-checkpoints](../skills/ui-interaction-checkpoints/SKILL.md) |
-| AI 功能评测证据 | [ai-workflow-evaluation.md](ai-workflow-evaluation.md) | 1 | [ai-workflow-evaluation-checkpoints](../skills/ai-workflow-evaluation-checkpoints/SKILL.md) |
+| AI 功能评测证据 | [ai-workflow-evaluation.md](ai-workflow-evaluation.md) | 3 | [ai-workflow-evaluation-checkpoints](../skills/ai-workflow-evaluation-checkpoints/SKILL.md) |
+| 任务可发现性、恢复与效率 | [task-recovery-and-efficiency.md](task-recovery-and-efficiency.md) | 8 | [ui-interaction-checkpoints](../skills/ui-interaction-checkpoints/SKILL.md)、[ui-quality-checkpoints](../skills/ui-quality-checkpoints/SKILL.md) |
+| 运行时安全更新 | [runtime-security-updates.md](runtime-security-updates.md) | 1 | [release-deployment-checkpoints](../skills/release-deployment-checkpoints/SKILL.md) |
+| 代码评审证据与收敛 | [review-evidence-and-convergence.md](review-evidence-and-convergence.md) | 1 | [git-change-checkpoints](../skills/git-change-checkpoints/SKILL.md) |
 
 仅保留能支持开发场景、关键决策、易漏项和验证方法的内容；无法核验的推断不作为已证实的实现方法。

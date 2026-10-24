@@ -25,8 +25,9 @@ description: 在实现、修改或验收后端 API、业务服务、权限与数
 | 登录、受保护资源、用户/租户关系、知识检索/记忆隔离或角色变化 | [auth-access-checkpoints](../auth-access-checkpoints/SKILL.md) | 服务端对象授权、跨租户检索/上下文/缓存访问、身份过期和撤权；不以隐藏按钮证明权限安全 |
 | SQL/ORM、统计、关联、排序或分页 | [sql-query-checkpoints](../sql-query-checkpoints/SKILL.md) | 漏数、重复计数、空值、稳定排序、结果对象含义 |
 | 缓存、消息、异步、库存/名额预留或服务入口/边界 | [architecture-tradeoff-checkpoints](../architecture-tradeoff-checkpoints/SKILL.md) | 数据归属、一致性、重复消费、原子预留与重试、失效和故障传播，按实际机制检查 |
+| 当前任务包含提交评审、处理评审发现或同步改动 | [git-change-checkpoints](../git-change-checkpoints/SKILL.md) | 差异范围、发现证据、修复收敛与提交对应的审批；仅在涉及协作交付时加载 |
 | 初始化步骤、任务前置关系 | [dependency-order-checkpoints](../dependency-order-checkpoints/SKILL.md) | 依赖方向、缺失节点、环、就绪与完成条件 |
-| 运行配置、流水线、部署或数据版本兼容 | [release-deployment-checkpoints](../release-deployment-checkpoints/SKILL.md) | 凭据来源、制品、失败门禁、持久化、恢复与兼容 |
+| 运行配置、运行时安全修补、流水线、部署或数据版本兼容 | [release-deployment-checkpoints](../release-deployment-checkpoints/SKILL.md) | 凭据来源、制品、失败门禁、持久化、恢复与兼容 |
 
 这个路由覆盖现有知识库，不能将未涵盖领域视为已通过。文件上传、命令执行、出站 URL、密码处理等特殊入口出现时，读取实际框架和当前一手安全依据，补充与改动相关的验证；资料不足时记录缺口，不能只因表中没有就略过。
 

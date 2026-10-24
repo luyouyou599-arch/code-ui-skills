@@ -7,7 +7,7 @@
 | 用途 | 核心问题 | 现有内容与入口 | 当前边界 |
 | --- | --- | --- | --- |
 | 产品与业务规则 | 给谁用、完成什么任务、哪些条件允许、失败后怎么办 | [产品任务](skills/product-task-checkpoints/SKILL.md) 中的角色、任务和成功证据；[交互检查](skills/ui-interaction-checkpoints/SKILL.md) 中的动作/状态/恢复；[后端入口](skills/backend-development-review/SKILL.md) 中的业务不变量 | 覆盖具体功能的任务/行为/验收约定；没有完整的用户研究、需求优先级、市场定位或统计实验设计技能 |
-| 交互与可用性 | 用户怎样操作、怎样知道结果、怎样恢复 | [ui-interaction-checkpoints](skills/ui-interaction-checkpoints/SKILL.md)：表单、组件状态、反馈、模态、排序与配置 | 与产品行为、视觉表达、前端实现和验收交叉；不证明后端授权或持久化正确 |
+| 交互与可用性 | 用户怎样操作、怎样知道结果、怎样恢复 | [ui-interaction-checkpoints](skills/ui-interaction-checkpoints/SKILL.md)：表单、组件状态、反馈、模态、排序与配置，以及选项比较、帮助、批量与防错 | 与产品行为、视觉表达、前端实现和验收交叉；不证明后端授权或持久化正确 |
 | 视觉与设计系统 | 信息怎样分层、样式怎样一致、效果何时合适 | [ui-quality-checkpoints](skills/ui-quality-checkpoints/SKILL.md)：布局、字体/颜色/间距、主题、阴影、内容密度与动效 | 已有的是视觉规则与实现检查，尚不是完整的品牌、组件资产库或设计系统治理能力 |
 | 前端实现与数据交互 | 页面如何把操作、请求、状态和渲染连接起来 | [frontend-development-review](skills/frontend-development-review/SKILL.md) 按需组合视觉、交互和 [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 请求技能跨前后端；当前不是完整的框架架构、状态管理或前端构建工具知识库 |
 | 后端业务、接口与数据 | 规则在哪里执行、权限和数据如何保持正确 | [backend-development-review](skills/backend-development-review/SKILL.md)、[请求/API](skills/web-request-checkpoints/SKILL.md)、[身份权限](skills/auth-access-checkpoints/SKILL.md)、[SQL](skills/sql-query-checkpoints/SKILL.md) | 覆盖已有主题及相关失败分支；不是所有业务领域和所有安全漏洞的完整审计库 |
@@ -43,6 +43,9 @@
 | JOIN、计数、过滤、分页结果 | [SQL 结果](skills/sql-query-checkpoints/references/checkpoints.md) |
 | 库存预留、重复副作用与中断恢复 | [库存一致性](skills/architecture-tradeoff-checkpoints/references/reservation-consistency.md) |
 | 环、缺失前置与任务完成条件 | [依赖顺序](skills/dependency-order-checkpoints/references/decisions.md) |
+| 评审发现、归因与修复收敛 | [评审证据](skills/git-change-checkpoints/references/review-evidence.md) |
+| 运行时修补是否覆盖实际实例 | [运行时安全更新](skills/release-deployment-checkpoints/references/runtime-updates.md) |
+| 空状态、帮助、批量范围与日期防错 | [任务与恢复](skills/ui-interaction-checkpoints/references/task-recovery.md) |
 | 流水线、运行环境、制品和恢复 | [发布](skills/release-deployment-checkpoints/references/release.md)、[容器](skills/release-deployment-checkpoints/references/containers.md) |
 
 验收时先从实际需求确定预期，再选择验证；已执行、未执行与待核实分别记录。知识点的结构检查、资料核验和目标项目的测试通过是三种不同状态，不能互相替代。

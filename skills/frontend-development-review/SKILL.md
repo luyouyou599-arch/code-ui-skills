@@ -17,6 +17,7 @@ description: 在设计、开发或验收网页页面、交互组件、表单与�
 | 按钮、表单、选择器、配置/排序、异步反馈和弹窗 | [ui-interaction-checkpoints](../ui-interaction-checkpoints/SKILL.md) | 状态转换、恢复路径、焦点、键盘与触屏操作 |
 | 表单提交、页面加载、API 数据与缓存 | [web-request-checkpoints](../web-request-checkpoints/SKILL.md) | 加载/空/错/成功状态、重复提交、错误响应、旧请求覆盖新状态及缓存条件，依据项目实现验证 |
 | 登录状态或权限相关交互 | [auth-access-checkpoints](../auth-access-checkpoints/SKILL.md) 的相关边界 | 过期后的界面与数据清理；前端隐藏入口不能证明后端资源授权 |
+| 当前任务包含提交评审、处理评审发现或同步改动 | [git-change-checkpoints](../git-change-checkpoints/SKILL.md) | 差异范围、发现证据、修复收敛与提交对应的审批；仅在涉及协作交付时加载 |
 | 初始化、构建任务具有前置关系 | [dependency-order-checkpoints](../dependency-order-checkpoints/SKILL.md) | 任务依赖与完成条件，仅在存在真实依赖时加载 |
 
 按相关改动实际验证主要路径、异常状态、宽窄视口与长内容；交互问题需要实际操作，静态截图不足以证明可用。优先复用现有测试，对有实际缺陷风险的逻辑补有意义的验证，不为低影响样式调整机械新增测试。
