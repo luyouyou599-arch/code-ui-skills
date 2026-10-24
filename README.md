@@ -57,6 +57,7 @@
 | [滚动动效决策](sources/scroll-motion-decisions.md) | Web 与前端 / 交互 | ui-quality-checkpoints | 3 份完整配文，未完整观看视频 |
 | [库存预留一致性](sources/reservation-consistency.md) | 系统设计 | architecture-tradeoff-checkpoints | 1 份视频局部画面，原子性边界核验 |
 | [内容密度、显示稳定与操作反馈](sources/interface-detail-decisions.md) | UI / 交互 | ui-quality-checkpoints、ui-interaction-checkpoints | 4 份正文合并，未取得所称源码或完整演示 |
+| [表单与加载连续性](sources/form-and-loading-continuity.md) | 交互 / Web 与前端 | ui-interaction-checkpoints、web-request-checkpoints | 3 份完整配文，未完整读取演示 |
 
 ## 技能索引
 
