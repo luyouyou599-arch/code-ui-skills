@@ -26,6 +26,8 @@
 
 ## 技能索引
 
+持续整理的作者目录：[编程人生](sources/authors/programming-life.md)（已整理 1 条分享视频；主页另见 12 个待读取标题，全量尚未确认）。
+
 | 技能 | 用途 | 状态 |
 | --- | --- | --- |
 | [curate-programming-ui](skills/curate-programming-ui/SKILL.md) | 将编程、UI 资料分类、提炼并整合为技能 | 已用于首份视频资料整理，未完成独立执行测试 |
