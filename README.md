@@ -37,6 +37,9 @@
 | [身份与访问权限](sources/authentication-and-access.md) | 身份与权限 | auth-access-checkpoints | 3 份概览合并，一手语义核验 |
 | [发布与容器运行](sources/release-and-container-decisions.md) | 发布部署 | release-deployment-checkpoints | 6 份概览合并，版本边界核验 |
 
+| [界面一致性与视觉效果](sources/ui-quality-and-effects.md) | UI 视觉设计 | ui-quality-checkpoints | 2 份资料合并，设计建议条件化核验 |
+| [后端代码验收](sources/backend-code-acceptance.md) | 开发工具与工程实践 | web-request-checkpoints | 视频局部抽查，补充验收证据 |
+
 ## 技能索引
 
 来源索引：[网络媒体资料](sources/media-index.md)（按主题合并，保留必要原文链接与实际读取范围）。
@@ -51,6 +54,8 @@
 | [architecture-tradeoff-checkpoints](skills/architecture-tradeoff-checkpoints/SKILL.md) | 缓存、异步、容量与服务边界的取舍 | 资料与结构检查，未在真实项目验证 |
 | [auth-access-checkpoints](skills/auth-access-checkpoints/SKILL.md) | 身份来源、对象授权、会话与 SSO 边界 | 资料与结构检查，未运行真实系统测试 |
 | [release-deployment-checkpoints](skills/release-deployment-checkpoints/SKILL.md) | 流水线、制品、运行环境、就绪与版本恢复 | 资料与结构检查，未运行发布或容器实验 |
+
+| [ui-quality-checkpoints](skills/ui-quality-checkpoints/SKILL.md) | 界面层级、样式一致性、可读性与装饰动效取舍 | 资料与结构检查，未在真实页面试用 |
 
 ## 跨项目使用
 

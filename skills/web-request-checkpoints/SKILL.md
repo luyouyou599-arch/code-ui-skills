@@ -19,6 +19,8 @@ description: 在开发或评审页面加载、API 方法与响应处理、数据
 
 新增或修改 API 契约、分页、Webhook，或定位慢接口时，读取 [references/api-contract.md](references/api-contract.md)，将检查关联到实际调用方和观测证据。
 
+验收具体后端接口改动，尤其涉及失败分支、外部依赖、写入或生成测试时，按需读取 [references/backend-acceptance.md](references/backend-acceptance.md)，以业务预期和实际副作用为依据，避免只验证成功响应。
+
 按用户目标、失败影响和实施成本确定优先级，区分当前必需、条件满足时需要及暂不适用。直接实现已授权范围内的修复；不要为展示知识而重写协议层、引入缓存设施、迁移 HTTP 版本或扩展成全项目审计。无实际请求的本地原型不强制做网络专项检查。
 
 ## 项目阐述与拆解
