@@ -31,6 +31,6 @@
 - [MDN：浏览器如何工作](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/How_browsers_work)，Parsing、Render：请求返回后仍需处理资源和渲染；这些过程可交错，不采用固定 TLS 往返次数示例。
 - [RFC 9114](https://www.rfc-editor.org/rfc/rfc9114.html)，1、3 节：HTTP/3 基于 QUIC，支持连接复用。
 
-选题起点是“编程人生”的[URL 请求流程视频](https://www.xiaohongshu.com/explore/6acb819f000000001500c451)，抽查约 00:01、00:06、00:11、00:14 画面；未取得音轨或字幕。视频提供请求到渲染的链路视角，上述功能检查与项目拆解方法是整理者结合文档的应用提炼。
+选题来源为网络媒体的[URL 请求流程视频](https://www.xiaohongshu.com/explore/6acb819f000000001500c451)，抽查约 00:01、00:06、00:11、00:14 画面；未取得音轨或字幕。视频提供请求到渲染的链路视角，上述功能检查与项目拆解方法是整理者结合文档的应用提炼。
 
 验证状态：已核对资料、技能结构和引用；未在真实项目中执行这些检查或测量优化收益。

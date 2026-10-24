@@ -32,10 +32,14 @@
 | [SQL 查询结果](sources/sql-query-correctness.md) | 数据库 | sql-query-checkpoints | 2 份来源合并，部分边界样例验证 |
 | [任务依赖](sources/task-dependency-order.md) | 编程基础 / 图算法 | dependency-order-checkpoints | 拓扑片段与边界样例验证 |
 | [架构机制与取舍](sources/architecture-tradeoffs.md) | 系统设计 | architecture-tradeoff-checkpoints | 2 份概览合并，条件化提炼 |
+| [API 契约与诊断](sources/api-contract-and-diagnostics.md) | Web 与前端 / API | web-request-checkpoints | 3 份概览补充现有技能 |
+| [请求入口职责](sources/gateway-boundaries.md) | 系统设计 | architecture-tradeoff-checkpoints | 2 份概览补充现有技能 |
+| [身份与访问权限](sources/authentication-and-access.md) | 身份与权限 | auth-access-checkpoints | 3 份概览合并，一手语义核验 |
+| [发布与容器运行](sources/release-and-container-decisions.md) | 发布部署 | release-deployment-checkpoints | 6 份概览合并，版本边界核验 |
 
 ## 技能索引
 
-精选作者目录：[编程人生](sources/authors/programming-life.md)（目录发现 236 个作品链接；已精选 16 份相关来源，按可读概览/片段提炼，不代表完整观看）。
+来源索引：[网络媒体资料](sources/media-index.md)（按主题合并，保留必要原文链接与实际读取范围）。
 
 | 技能 | 用途 | 状态 |
 | --- | --- | --- |
@@ -45,6 +49,8 @@
 | [sql-query-checkpoints](skills/sql-query-checkpoints/SKILL.md) | JOIN、过滤、计数与分页的结果正确性 | 小型 SQL 边界样例验证 |
 | [dependency-order-checkpoints](skills/dependency-order-checkpoints/SKILL.md) | 依赖方向、缺失节点、环和任务完成条件 | 标准库边界样例验证 |
 | [architecture-tradeoff-checkpoints](skills/architecture-tradeoff-checkpoints/SKILL.md) | 缓存、异步、容量与服务边界的取舍 | 资料与结构检查，未在真实项目验证 |
+| [auth-access-checkpoints](skills/auth-access-checkpoints/SKILL.md) | 身份来源、对象授权、会话与 SSO 边界 | 资料与结构检查，未运行真实系统测试 |
+| [release-deployment-checkpoints](skills/release-deployment-checkpoints/SKILL.md) | 流水线、制品、运行环境、就绪与版本恢复 | 资料与结构检查，未运行发布或容器实验 |
 
 ## 跨项目使用
 

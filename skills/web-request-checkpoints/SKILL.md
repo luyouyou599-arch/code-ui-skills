@@ -17,6 +17,8 @@ description: 在开发或评审页面加载、API 方法与响应处理、数据
 
 涉及接口方法、重复提交、自动重试或错误响应时，再读取 [references/http-semantics.md](references/http-semantics.md)。仅检查链路性能时无需加载这些细节。
 
+新增或修改 API 契约、分页、Webhook，或定位慢接口时，读取 [references/api-contract.md](references/api-contract.md)，将检查关联到实际调用方和观测证据。
+
 按用户目标、失败影响和实施成本确定优先级，区分当前必需、条件满足时需要及暂不适用。直接实现已授权范围内的修复；不要为展示知识而重写协议层、引入缓存设施、迁移 HTTP 版本或扩展成全项目审计。无实际请求的本地原型不强制做网络专项检查。
 
 ## 项目阐述与拆解
