@@ -71,6 +71,7 @@
 | [多租户检索、会话与缓存](sources/tenant-context-isolation.md) | 身份与权限 / 后端 | auth-access-checkpoints | 1 份正文及 9 图，一手边界核验，未运行系统测试 |
 | [可见目标与标签热区](sources/visible-and-clickable-targets.md) | 交互与可用性 | ui-interaction-checkpoints | 完整配文与视频局部画面，一手核验 |
 | [AI 功能评测证据](sources/ai-workflow-evaluation.md) | 测试 / AI 工程 | ai-workflow-evaluation-checkpoints | 3 份来源：局部视频、完整配文及官方文档；未运行模型评测 |
+| [AI 适配、路由与执行](sources/ai-routing-tools-and-adaptation.md) | AI / 测试 | ai-workflow-evaluation-checkpoints | 4 份视频局部知识已整合，完整视频均待补读；一手核验，未运行模型测试 |
 | [任务可发现性、恢复与效率](sources/task-recovery-and-efficiency.md) | 交互 / 产品 / 前端 | ui-interaction-checkpoints、ui-quality-checkpoints | 8 份完整配文，未完整读取视频；条件化合并 |
 | [运行时安全更新](sources/runtime-security-updates.md) | 工程交付 / 后端运行安全 | release-deployment-checkpoints | 完整配文及官方公告核验；未执行升级 |
 | [代码评审证据与收敛](sources/review-evidence-and-convergence.md) | 工程协作 / 测试 | git-change-checkpoints | 完整配文及一手工程记录；未实测评审器 |

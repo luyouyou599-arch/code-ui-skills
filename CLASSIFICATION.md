@@ -37,6 +37,7 @@
 | 键盘/触屏、控件状态、消息与恢复 | [控件](skills/ui-interaction-checkpoints/references/controls.md)、[反馈](skills/ui-interaction-checkpoints/references/feedback.md) |
 | 校验、验证码、分页衔接与快速状态变化 | [表单与加载](skills/ui-interaction-checkpoints/references/form-and-loading-continuity.md) |
 | 配置草稿、预览、排序与保存 | [配置编辑](skills/ui-interaction-checkpoints/references/configuration-editing.md) |
+| AI 适配比较、意图误路由与实际工具执行 | [适配、路由与执行样本](skills/ai-workflow-evaluation-checkpoints/references/adaptation-routing-execution.md) |
 | 模型输出、检索和工具调用是否完成任务 | [AI 功能评测](skills/ai-workflow-evaluation-checkpoints/SKILL.md)、[评测证据](skills/ai-workflow-evaluation-checkpoints/references/evaluation-evidence.md) |
 | 请求错误、迟到响应、重试及写入结果 | [请求链路](skills/web-request-checkpoints/references/checkpoints.md)、[HTTP 语义](skills/web-request-checkpoints/references/http-semantics.md)、[后端验收](skills/web-request-checkpoints/references/backend-acceptance.md) |
 | 登录过期、对象/租户越权与会话变化 | [身份权限](skills/auth-access-checkpoints/references/decisions.md)、[租户检索/上下文/缓存](skills/auth-access-checkpoints/references/tenant-retrieval-isolation.md) |
