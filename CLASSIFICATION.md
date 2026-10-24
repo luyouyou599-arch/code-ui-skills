@@ -12,7 +12,7 @@
 | 前端实现与数据交互 | 页面如何把操作、请求、状态和渲染连接起来 | [frontend-development-review](skills/frontend-development-review/SKILL.md) 按需组合视觉、交互和 [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 请求技能跨前后端；当前不是完整的框架架构、状态管理或前端构建工具知识库 |
 | 后端业务、接口与数据 | 规则在哪里执行、权限和数据如何保持正确 | [backend-development-review](skills/backend-development-review/SKILL.md)、[请求/API](skills/web-request-checkpoints/SKILL.md)、[身份权限](skills/auth-access-checkpoints/SKILL.md)、[SQL](skills/sql-query-checkpoints/SKILL.md) | 覆盖已有主题及相关失败分支；不是所有业务领域和所有安全漏洞的完整审计库 |
 | 架构与可靠性 | 组件为何存在、一致性/容量/故障如何取舍 | [architecture-tradeoff-checkpoints](skills/architecture-tradeoff-checkpoints/SKILL.md)：缓存、异步、服务边界、网关与库存预留 | 条件化取舍与验证方法；没有通用容量数值或必须采用的组件组合 |
-| 测试与质量验收 | 怎样用证据判断需求与实现一致 | 前后端入口负责组织，主题技能中的验证方法负责具体检查；详见下表 | 当前是分散在各主题中的验收能力，没有独立 E2E/压测/测试平台技能，也不等同于已自动运行测试 |
+| 测试与质量验收 | 怎样用证据判断需求与实现一致 | 前后端入口负责组织，主题技能中的验证方法负责具体检查；[AI 功能评测](skills/ai-workflow-evaluation-checkpoints/SKILL.md) 覆盖模型结果与调用过程；详见下表 | 已有主题验收与 AI 功能评测能力；没有通用 E2E/压测/测试平台技能，也不等同于已自动运行测试 |
 | 工程协作与交付 | 改动怎样协作、任务如何编排、版本如何发布恢复 | [Git](skills/git-change-checkpoints/SKILL.md)、[依赖顺序](skills/dependency-order-checkpoints/SKILL.md)、[发布部署](skills/release-deployment-checkpoints/SKILL.md) | 前后端共享；依据项目实际采用的工具选择，不固定某种流水线或容器平台 |
 
 [资料整理技能](skills/curate-programming-ui/SKILL.md) 属于技能库维护，负责筛选、归纳、证据和分类，不是业务项目的开发规范。
@@ -37,6 +37,7 @@
 | 键盘/触屏、控件状态、消息与恢复 | [控件](skills/ui-interaction-checkpoints/references/controls.md)、[反馈](skills/ui-interaction-checkpoints/references/feedback.md) |
 | 校验、验证码、分页衔接与快速状态变化 | [表单与加载](skills/ui-interaction-checkpoints/references/form-and-loading-continuity.md) |
 | 配置草稿、预览、排序与保存 | [配置编辑](skills/ui-interaction-checkpoints/references/configuration-editing.md) |
+| 模型输出、检索和工具调用是否完成任务 | [AI 功能评测](skills/ai-workflow-evaluation-checkpoints/SKILL.md)、[评测证据](skills/ai-workflow-evaluation-checkpoints/references/evaluation-evidence.md) |
 | 请求错误、迟到响应、重试及写入结果 | [请求链路](skills/web-request-checkpoints/references/checkpoints.md)、[HTTP 语义](skills/web-request-checkpoints/references/http-semantics.md)、[后端验收](skills/web-request-checkpoints/references/backend-acceptance.md) |
 | 登录过期、对象/租户越权与会话变化 | [身份权限](skills/auth-access-checkpoints/references/decisions.md)、[租户检索/上下文/缓存](skills/auth-access-checkpoints/references/tenant-retrieval-isolation.md) |
 | JOIN、计数、过滤、分页结果 | [SQL 结果](skills/sql-query-checkpoints/references/checkpoints.md) |
@@ -52,6 +53,7 @@
 | --- | --- | --- |
 | [frontend-development-review](skills/frontend-development-review/SKILL.md) | 前端任务调用入口 | 组织设计、实现和验收，不是一份新的视觉规范 |
 | [backend-development-review](skills/backend-development-review/SKILL.md) | 后端任务调用入口 | 组织业务、接口、数据、安全相关检查和验收 |
+| [ai-workflow-evaluation-checkpoints](skills/ai-workflow-evaluation-checkpoints/SKILL.md) | AI 功能测试与回归 | 模型输出、检索与工具流程的任务样本、判定和证据；不替代完整模型安全审计 |
 | [product-task-checkpoints](skills/product-task-checkpoints/SKILL.md) | 产品任务与功能约定 | 支持前后端规则衔接、验收场景与项目目标拆解 |
 | [ui-interaction-checkpoints](skills/ui-interaction-checkpoints/SKILL.md) | 交互与可用性 | 支持产品行为约定、前端实现和交互验收 |
 | [ui-quality-checkpoints](skills/ui-quality-checkpoints/SKILL.md) | 视觉与设计规则 | 支持前端布局/主题/动效实现及视觉验收 |

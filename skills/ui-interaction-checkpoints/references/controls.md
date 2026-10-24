@@ -12,3 +12,11 @@
 核验于 2026-10-24：[WCAG 2.5.8 点击目标](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)、[WAI 控件标签](https://www.w3.org/WAI/tutorials/forms/labels/)、[APG Combobox](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/)。最后一项只用于确实实现 combobox 的控件，不将菜单、列表框与选择框混为同一组件。
 
 网络媒体正文已读，相关附图已于 2026-10-24 补读：[按钮状态](https://www.xiaohongshu.com/explore/6abbc65f000000000200d68a)、[点击热区](https://www.xiaohongshu.com/explore/6ad77390000000002603a2e7)、[输入状态](https://www.xiaohongshu.com/explore/6ac232910000000002010ce5)、[选择状态](https://www.xiaohongshu.com/explore/6ac4d595000000001a0313da)。表格含整理者工程补充；尚未在真实组件验证。
+
+## 可见目标与标签热区
+
+高频主操作既要能命中，也要让人看得出可点范围；只加透明区域不自动解决可发现性。对复选框/单选框，使用正确关联的标签扩大可操作范围，检查点图形、点文字及键盘是否只触发一次，不以嵌套 click 事件重复切换。相邻加减按钮扩区后仍须各自清晰，不覆盖对方。
+
+验证真实 DOM 命中框、标签关联、边界点按及相邻动作结果；几次拇指试点只能发现线索，不能证明误触率或普遍可用。尺寸继续按上表及适用例外判断，不把网页 24 CSS px 当所有目标的充分设计尺寸。
+
+新增网络媒体：[按钮多大才点得准](https://www.xiaohongshu.com/explore/6ad43a92000000000c0091f1)，完整配文、视频 00:54/02:24/03:38 画面抽查，未完整读取音轨。标签实现与事件验证是整理者补充。2026-10-24 再核对 [WAI 标签](https://www.w3.org/WAI/tutorials/forms/labels/) 与 [WCAG 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)，未测试目标组件。

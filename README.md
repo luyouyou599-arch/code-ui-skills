@@ -69,6 +69,8 @@
 | [视觉角色与尺度一致性](sources/visual-role-consistency.md) | UI 视觉设计 | ui-quality-checkpoints | 7 份正文与配图合并，固定数值条件化 |
 | [加载反馈选择与禁用原因](sources/loading-feedback-selection.md) | 交互与可用性 | ui-interaction-checkpoints | 2 份正文及配图，补充阶段/成功边界 |
 | [多租户检索、会话与缓存](sources/tenant-context-isolation.md) | 身份与权限 / 后端 | auth-access-checkpoints | 1 份正文及 9 图，一手边界核验，未运行系统测试 |
+| [可见目标与标签热区](sources/visible-and-clickable-targets.md) | 交互与可用性 | ui-interaction-checkpoints | 完整配文与视频局部画面，一手核验 |
+| [AI 功能评测证据](sources/ai-workflow-evaluation.md) | 测试 / AI 工程 | ai-workflow-evaluation-checkpoints | 局部视频主题线索及官方文档，未运行模型评测 |
 
 ## 技能索引
 
@@ -78,6 +80,7 @@
 | --- | --- | --- | --- |
 | [frontend-development-review](skills/frontend-development-review/SKILL.md) | 前端调用入口 | 前端开发与验收按需调用入口 | 已做结构与路由检查，未在真实项目试用 |
 | [backend-development-review](skills/backend-development-review/SKILL.md) | 后端调用入口 | 后端开发与验收按需调用入口 | 已做结构与路由检查，未在真实项目试用 |
+| [ai-workflow-evaluation-checkpoints](skills/ai-workflow-evaluation-checkpoints/SKILL.md) | AI 功能评测 / 回归 | 按任务定义样本、判定和过程证据 | 资料与结构检查，未在真实项目试用 |
 | [product-task-checkpoints](skills/product-task-checkpoints/SKILL.md) | 产品任务 / 验收约定 | 角色、任务结果、业务规则与验证证据 | 资料与结构检查，未在真实项目验证 |
 | [curate-programming-ui](skills/curate-programming-ui/SKILL.md) | 技能库维护 | 将编程、UI 资料分类、提炼并整合为技能 | 已用于首份视频资料整理，未完成独立执行测试 |
 | [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 跨端接口 / 数据交互 | 开发请求与页面加载功能时检查关键决策、遗漏项，并拆解项目实现与依据 | 已核对资料和结构，尚未在真实开发项目中验证 |

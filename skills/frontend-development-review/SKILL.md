@@ -11,6 +11,7 @@ description: 在设计、开发或验收网页页面、交互组件、表单与�
 
 | 场景 | 调用技能 | 关注点 |
 | --- | --- | --- |
+| 本次 AI 功能涉及模型结果、检索或工具调用的质量与回归 | [ai-workflow-evaluation-checkpoints](../ai-workflow-evaluation-checkpoints/SKILL.md) | 任务样本、判定标准与调用证据；纯界面样式不加载 |
 | 功能目标、角色、业务行为或验收预期不清 | [product-task-checkpoints](../product-task-checkpoints/SKILL.md) | 使用情境、成功结果、允许/拒绝规则与可观察副作用；只补当前缺口 |
 | 布局、组件样式、AI 生成初稿或动效 | [ui-quality-checkpoints](../ui-quality-checkpoints/SKILL.md) | 信息层级、样式一致性、真实内容、响应式、键盘/触屏与动效降级 |
 | 按钮、表单、选择器、配置/排序、异步反馈和弹窗 | [ui-interaction-checkpoints](../ui-interaction-checkpoints/SKILL.md) | 状态转换、恢复路径、焦点、键盘与触屏操作 |
