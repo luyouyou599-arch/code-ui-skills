@@ -58,6 +58,7 @@
 | [库存预留一致性](sources/reservation-consistency.md) | 系统设计 | architecture-tradeoff-checkpoints | 1 份视频局部画面，原子性边界核验 |
 | [内容密度、显示稳定与操作反馈](sources/interface-detail-decisions.md) | UI / 交互 | ui-quality-checkpoints、ui-interaction-checkpoints | 4 份正文合并，未取得所称源码或完整演示 |
 | [表单与加载连续性](sources/form-and-loading-continuity.md) | 交互 / Web 与前端 | ui-interaction-checkpoints、web-request-checkpoints | 3 份完整配文，未完整读取演示 |
+| [配置编辑与保存](sources/configuration-editing.md) | 交互 / Web 与前端 | ui-interaction-checkpoints、web-request-checkpoints | 1 份视频部分画面，含工程边界补充 |
 
 ## 技能索引
 

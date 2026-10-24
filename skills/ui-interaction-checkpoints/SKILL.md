@@ -1,6 +1,6 @@
 ---
 name: ui-interaction-checkpoints
-description: 在设计、实现或验收按钮、输入框、选择控件、加载/空/错状态及弹窗消息时，将用户动作映射到状态转换、恢复路径和可访问交互，发现缺失反馈与操作问题。适用于网页具体交互，不代替后端授权或业务幂等验证。
+description: 在设计、实现或验收按钮、输入框、选择控件、配置面板、排序、加载/空/错状态及弹窗消息时，将用户动作映射到状态转换、恢复路径和可访问交互，发现缺失反馈与操作问题。适用于网页具体交互，不代替后端授权或业务幂等验证。
 ---
 
 # 组件状态与用户反馈
@@ -13,6 +13,8 @@ description: 在设计、实现或验收按钮、输入框、选择控件、加�
 实现自动/异步校验、验证码、分页加载、图片占位、快速状态切换或长按时，按需读取 [references/form-and-loading-continuity.md](references/form-and-loading-continuity.md)，核对过程衔接和中断恢复。
 
 复制、加购、播放等操作动效或危险确认，按需读取 [references/action-feedback.md](references/action-feedback.md)，让反馈跟随实际操作结果。
+
+涉及推荐默认值、配置预览、拖拽排序或编辑后保存时，按需读取 [references/configuration-editing.md](references/configuration-editing.md)，区分草稿、预览与持久化结果。
 
 先列出关键的“事件 → 状态 → 可见/可访问反馈 → 允许操作 → 结果/恢复”。例如表单提交需区分本地不合法、正在发送、服务端拒绝、结果不确定和成功；不能让转圈或 Toast 掩盖失败。根据接口契约决定能否重试，前端按钮禁用不等于后端幂等。
 
