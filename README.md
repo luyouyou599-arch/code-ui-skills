@@ -12,6 +12,8 @@
 
 初始分类：计算机基础、编程基础、开发工具与工程实践、Web 与前端、UI 视觉设计、交互与可用性、设计到实现。具体标签随资料增加，不提前建立大量空目录。
 
+只将有实际开发价值且已核验适用性的内容提炼为技能；不以覆盖作品数量为目标。基础知识不因发布时间早就判为过时，资讯和无工程增量的内容不进入技能。
+
 ## 内容组织
 
 - `sources/`：有真实资料后创建，保存来源笔记及引用位置。
@@ -25,15 +27,24 @@
 | 资料 | 主分类 | 关联技能 | 状态 |
 | --- | --- | --- | --- |
 | [请求一个 URL 后发生了什么](sources/url-request-browser-journey.md) | 计算机基础 / 计算机网络 | web-request-checkpoints | 已整合；视频关键帧抽查与文档核验 |
+| [HTTP 方法与响应](sources/http-methods-and-status.md) | Web 与前端 / API | web-request-checkpoints | 4 份来源合并，含标准纠错 |
+| [Git 协作与改动](sources/git-workflow-decisions.md) | 开发工具与工程实践 / Git | git-change-checkpoints | 6 份来源合并，官方语义核验 |
+| [SQL 查询结果](sources/sql-query-correctness.md) | 数据库 | sql-query-checkpoints | 2 份来源合并，部分边界样例验证 |
+| [任务依赖](sources/task-dependency-order.md) | 编程基础 / 图算法 | dependency-order-checkpoints | 拓扑片段与边界样例验证 |
+| [架构机制与取舍](sources/architecture-tradeoffs.md) | 系统设计 | architecture-tradeoff-checkpoints | 2 份概览合并，条件化提炼 |
 
 ## 技能索引
 
-持续整理的作者目录：[编程人生](sources/authors/programming-life.md)（已整理 1 条分享视频；主页另见 12 个待读取标题，全量尚未确认）。
+精选作者目录：[编程人生](sources/authors/programming-life.md)（目录发现 236 个作品链接；已精选 16 份相关来源，按可读概览/片段提炼，不代表完整观看）。
 
 | 技能 | 用途 | 状态 |
 | --- | --- | --- |
 | [curate-programming-ui](skills/curate-programming-ui/SKILL.md) | 将编程、UI 资料分类、提炼并整合为技能 | 已用于首份视频资料整理，未完成独立执行测试 |
 | [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 开发请求与页面加载功能时检查关键决策、遗漏项，并拆解项目实现与依据 | 已核对资料和结构，尚未在真实开发项目中验证 |
+| [git-change-checkpoints](skills/git-change-checkpoints/SKILL.md) | 提交、同步、整合与撤销的场景决策 | 资料与结构检查，部分命令行为实验 |
+| [sql-query-checkpoints](skills/sql-query-checkpoints/SKILL.md) | JOIN、过滤、计数与分页的结果正确性 | 小型 SQL 边界样例验证 |
+| [dependency-order-checkpoints](skills/dependency-order-checkpoints/SKILL.md) | 依赖方向、缺失节点、环和任务完成条件 | 标准库边界样例验证 |
+| [architecture-tradeoff-checkpoints](skills/architecture-tradeoff-checkpoints/SKILL.md) | 缓存、异步、容量与服务边界的取舍 | 资料与结构检查，未在真实项目验证 |
 
 ## 跨项目使用
 
