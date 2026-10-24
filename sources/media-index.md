@@ -1,6 +1,6 @@
 # 网络媒体来源索引
 
-按开发主题整合不同来源，保留必要的原文链接、读取范围与技能去向。累计精选 65 份来源，实际读取范围包括正文、图文及视频概览帧或局部片段，详见主题笔记，不代表所有视频完整观看。重复主题优先合并，来源数量不作为质量指标。
+按开发主题整合不同来源，保留必要的原文链接、读取范围与技能去向。累计精选 66 份来源，实际读取范围包括正文、图文及视频概览帧或局部片段，详见主题笔记，不代表所有视频完整观看。重复主题优先合并，来源数量不作为质量指标。
 
 | 主题 | 合并笔记 | 来源数 | 技能去向 |
 | --- | --- | --- | --- |
@@ -23,7 +23,7 @@
 | 内容密度、显示稳定与操作反馈 | [interface-detail-decisions.md](interface-detail-decisions.md) | 4 | [ui-quality-checkpoints](../skills/ui-quality-checkpoints/SKILL.md)、[ui-interaction-checkpoints](../skills/ui-interaction-checkpoints/SKILL.md) |
 | 表单与加载连续性 | [form-and-loading-continuity.md](form-and-loading-continuity.md) | 3 | [ui-interaction-checkpoints](../skills/ui-interaction-checkpoints/SKILL.md)、[web-request-checkpoints](../skills/web-request-checkpoints/SKILL.md) |
 | 配置编辑与保存 | [configuration-editing.md](configuration-editing.md) | 1 | [ui-interaction-checkpoints](../skills/ui-interaction-checkpoints/SKILL.md)、[web-request-checkpoints](../skills/web-request-checkpoints/SKILL.md) |
-| 产品任务与成功标准 | [product-task-and-success.md](product-task-and-success.md) | 2 | [product-task-checkpoints](../skills/product-task-checkpoints/SKILL.md) |
+| 产品任务与成功标准 | [product-task-and-success.md](product-task-and-success.md) | 3 | [product-task-checkpoints](../skills/product-task-checkpoints/SKILL.md) |
 | 视觉角色与尺度一致性 | [visual-role-consistency.md](visual-role-consistency.md) | 7 | [ui-quality-checkpoints](../skills/ui-quality-checkpoints/SKILL.md) |
 | 加载反馈选择与禁用原因 | [loading-feedback-selection.md](loading-feedback-selection.md) | 2 | [ui-interaction-checkpoints](../skills/ui-interaction-checkpoints/SKILL.md) |
 

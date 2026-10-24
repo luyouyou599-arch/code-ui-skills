@@ -65,7 +65,7 @@
 | [内容密度、显示稳定与操作反馈](sources/interface-detail-decisions.md) | UI / 交互 | ui-quality-checkpoints、ui-interaction-checkpoints | 4 份正文合并，未取得所称源码或完整演示 |
 | [表单与加载连续性](sources/form-and-loading-continuity.md) | 交互 / Web 与前端 | ui-interaction-checkpoints、web-request-checkpoints | 3 份完整配文，未完整读取演示 |
 | [配置编辑与保存](sources/configuration-editing.md) | 交互 / Web 与前端 | ui-interaction-checkpoints、web-request-checkpoints | 1 份视频部分画面，含工程边界补充 |
-| [产品任务与成功标准](sources/product-task-and-success.md) | 产品与业务规则 | product-task-checkpoints | 2 份正文及全部 10 张图，工程应用推导 |
+| [产品任务与成功标准](sources/product-task-and-success.md) | 产品与业务规则 | product-task-checkpoints | 3 份正文/配文及图文，补充任务基线与失败样本 |
 | [视觉角色与尺度一致性](sources/visual-role-consistency.md) | UI 视觉设计 | ui-quality-checkpoints | 7 份正文与配图合并，固定数值条件化 |
 | [加载反馈选择与禁用原因](sources/loading-feedback-selection.md) | 交互与可用性 | ui-interaction-checkpoints | 2 份正文及配图，补充阶段/成功边界 |
 
