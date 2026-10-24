@@ -14,6 +14,12 @@
 
 只将有实际开发价值且已核验适用性的内容提炼为技能；不以覆盖作品数量为目标。基础知识不因发布时间早就判为过时，资讯和无工程增量的内容不进入技能。
 
+## 按用途找技能
+
+先查看 [技能用途与调用导航](CLASSIFICATION.md)：区分产品与业务、交互、视觉设计、前端实现、后端开发、架构、测试验收、工程协作与交付，并标明现有覆盖和缺口。前端/后端是实现范围，产品/设计/测试是用途；同一技能可以跨用途复用。
+
+产品规范决定功能规则与行为，交互规范决定操作和反馈，视觉规范决定呈现与一致性，测试验收用证据核对实现。产品规则不只属于前端；测试方法也不限于一个独立技能。
+
 ## 前端与后端入口
 
 按任务选择入口，由入口根据实际改动读取有关知识点。知识仍统一维护，跨端或工程通用技能不复制两份。
@@ -64,20 +70,20 @@
 
 来源索引：[网络媒体资料](sources/media-index.md)（按主题合并，保留必要原文链接与实际读取范围）。
 
-| 技能 | 用途 | 状态 |
-| --- | --- | --- |
-| [frontend-development-review](skills/frontend-development-review/SKILL.md) | 前端开发与验收按需调用入口 | 已做结构与路由检查，未在真实项目试用 |
-| [backend-development-review](skills/backend-development-review/SKILL.md) | 后端开发与验收按需调用入口 | 已做结构与路由检查，未在真实项目试用 |
-| [curate-programming-ui](skills/curate-programming-ui/SKILL.md) | 将编程、UI 资料分类、提炼并整合为技能 | 已用于首份视频资料整理，未完成独立执行测试 |
-| [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 开发请求与页面加载功能时检查关键决策、遗漏项，并拆解项目实现与依据 | 已核对资料和结构，尚未在真实开发项目中验证 |
-| [git-change-checkpoints](skills/git-change-checkpoints/SKILL.md) | 提交、同步、整合与撤销的场景决策 | 资料与结构检查，部分命令行为实验 |
-| [sql-query-checkpoints](skills/sql-query-checkpoints/SKILL.md) | JOIN、过滤、计数与分页的结果正确性 | 小型 SQL 边界样例验证 |
-| [dependency-order-checkpoints](skills/dependency-order-checkpoints/SKILL.md) | 依赖方向、缺失节点、环和任务完成条件 | 标准库边界样例验证 |
-| [architecture-tradeoff-checkpoints](skills/architecture-tradeoff-checkpoints/SKILL.md) | 缓存、异步、容量与服务边界的取舍 | 资料与结构检查，未在真实项目验证 |
-| [auth-access-checkpoints](skills/auth-access-checkpoints/SKILL.md) | 身份来源、对象授权、会话与 SSO 边界 | 资料与结构检查，未运行真实系统测试 |
-| [release-deployment-checkpoints](skills/release-deployment-checkpoints/SKILL.md) | 流水线、制品、运行环境、就绪与版本恢复 | 资料与结构检查，未运行发布或容器实验 |
-| [ui-quality-checkpoints](skills/ui-quality-checkpoints/SKILL.md) | 界面层级、样式一致性、可读性与装饰动效取舍 | 资料与结构检查，未在真实页面试用 |
-| [ui-interaction-checkpoints](skills/ui-interaction-checkpoints/SKILL.md) | 控件状态、表单校验、异步反馈和模态选择 | 正文及一手资料核验，未在真实组件试用 |
+| 技能 | 主用途 / 角色 | 具体能力 | 状态 |
+| --- | --- | --- | --- |
+| [frontend-development-review](skills/frontend-development-review/SKILL.md) | 前端调用入口 | 前端开发与验收按需调用入口 | 已做结构与路由检查，未在真实项目试用 |
+| [backend-development-review](skills/backend-development-review/SKILL.md) | 后端调用入口 | 后端开发与验收按需调用入口 | 已做结构与路由检查，未在真实项目试用 |
+| [curate-programming-ui](skills/curate-programming-ui/SKILL.md) | 技能库维护 | 将编程、UI 资料分类、提炼并整合为技能 | 已用于首份视频资料整理，未完成独立执行测试 |
+| [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 跨端接口 / 数据交互 | 开发请求与页面加载功能时检查关键决策、遗漏项，并拆解项目实现与依据 | 已核对资料和结构，尚未在真实开发项目中验证 |
+| [git-change-checkpoints](skills/git-change-checkpoints/SKILL.md) | 工程协作 | 提交、同步、整合与撤销的场景决策 | 资料与结构检查，部分命令行为实验 |
+| [sql-query-checkpoints](skills/sql-query-checkpoints/SKILL.md) | 后端查询 / 数据正确性 | JOIN、过滤、计数与分页的结果正确性 | 小型 SQL 边界样例验证 |
+| [dependency-order-checkpoints](skills/dependency-order-checkpoints/SKILL.md) | 工程编排 | 依赖方向、缺失节点、环和任务完成条件 | 标准库边界样例验证 |
+| [architecture-tradeoff-checkpoints](skills/architecture-tradeoff-checkpoints/SKILL.md) | 架构 / 可靠性 | 缓存、异步、容量与服务边界的取舍 | 资料与结构检查，未在真实项目验证 |
+| [auth-access-checkpoints](skills/auth-access-checkpoints/SKILL.md) | 后端身份 / 权限 | 身份来源、对象授权、会话与 SSO 边界 | 资料与结构检查，未运行真实系统测试 |
+| [release-deployment-checkpoints](skills/release-deployment-checkpoints/SKILL.md) | 发布 / 运行交付 | 流水线、制品、运行环境、就绪与版本恢复 | 资料与结构检查，未运行发布或容器实验 |
+| [ui-quality-checkpoints](skills/ui-quality-checkpoints/SKILL.md) | 视觉设计 / 前端呈现 | 界面层级、样式一致性、可读性与装饰动效取舍 | 资料与结构检查，未在真实页面试用 |
+| [ui-interaction-checkpoints](skills/ui-interaction-checkpoints/SKILL.md) | 交互 / 产品行为 | 控件状态、表单校验、异步反馈和模态选择 | 正文及一手资料核验，未在真实组件试用 |
 
 ## 跨项目使用
 
