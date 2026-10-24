@@ -45,6 +45,6 @@
 
 ## 技能去向
 
-已整合到 [explain-browser-navigation](../skills/explain-browser-navigation/SKILL.md)，用于通俗解释网页导航流程及核查面试答案中的过度简化。
+已整合到 [web-request-checkpoints](../skills/web-request-checkpoints/SKILL.md)，用于开发请求与页面加载功能时识别关键决策、遗漏项及验证依据，并支持项目实现拆解。视频提供链路视角；具体工程检查是整理者补充，不归为视频原话。Fetch 与请求观测等新增依据见该技能参考文件。
 
 当前是资料与文档核验，尚未通过网络抓包或跨项目调用验证。

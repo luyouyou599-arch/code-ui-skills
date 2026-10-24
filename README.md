@@ -4,6 +4,8 @@
 
 用于持续接收文章、图文、视频和项目实例，保留可追溯的知识笔记，并将成熟的方法整合成可复用的 Codex skill。默认以中文整理，保留必要的英文术语。
 
+技能面向两个用途：开发核心功能时，识别相关知识、关键决策与易漏项并验证落实；阐述项目时，快速拆解真实实现中的核心机制、模块关系、取舍与证据。概念解释保留为参考材料。
+
 ## 使用方式
 
 直接发送链接即可，也可以附上“重点看哪部分”或“希望用在哪个项目”。每次整理返回：基础分类、核心要点、适用场景、来源覆盖范围，以及新增或更新了哪些技能。
@@ -22,7 +24,7 @@
 
 | 资料 | 主分类 | 关联技能 | 状态 |
 | --- | --- | --- | --- |
-| [请求一个 URL 后发生了什么](sources/url-request-browser-journey.md) | 计算机基础 / 计算机网络 | explain-browser-navigation | 已整合；视频关键帧抽查与文档核验 |
+| [请求一个 URL 后发生了什么](sources/url-request-browser-journey.md) | 计算机基础 / 计算机网络 | web-request-checkpoints | 已整合；视频关键帧抽查与文档核验 |
 
 ## 技能索引
 
@@ -31,7 +33,7 @@
 | 技能 | 用途 | 状态 |
 | --- | --- | --- |
 | [curate-programming-ui](skills/curate-programming-ui/SKILL.md) | 将编程、UI 资料分类、提炼并整合为技能 | 已用于首份视频资料整理，未完成独立执行测试 |
-| [explain-browser-navigation](skills/explain-browser-navigation/SKILL.md) | 通俗解释网页加载流程，核查面试答案与协议边界 | 已核对资料和结构，未进行抓包或独立执行测试 |
+| [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 开发请求与页面加载功能时检查关键决策、遗漏项，并拆解项目实现与依据 | 已核对资料和结构，尚未在真实开发项目中验证 |
 
 ## 跨项目使用
 

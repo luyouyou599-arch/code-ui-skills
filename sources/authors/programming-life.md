@@ -11,7 +11,7 @@
 
 | 作品 | 笔记 | 技能 |
 | --- | --- | --- |
-| 面试高频!请求一个URL 时,背后经历了多少步 | [URL 请求流程](../url-request-browser-journey.md) | [explain-browser-navigation](../../skills/explain-browser-navigation/SKILL.md) |
+| 面试高频!请求一个URL 时,背后经历了多少步 | [URL 请求流程](../url-request-browser-journey.md) | [web-request-checkpoints](../../skills/web-request-checkpoints/SKILL.md) |
 
 ## 主页已见、待读取
 
