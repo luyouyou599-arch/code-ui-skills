@@ -56,6 +56,7 @@
 | [布局、主题与层级](sources/layout-theme-elevation.md) | UI 视觉设计 / 设计到实现 | ui-quality-checkpoints | 3 份完整正文，补充布局和主题验证 |
 | [滚动动效决策](sources/scroll-motion-decisions.md) | Web 与前端 / 交互 | ui-quality-checkpoints | 3 份完整配文，未完整观看视频 |
 | [库存预留一致性](sources/reservation-consistency.md) | 系统设计 | architecture-tradeoff-checkpoints | 1 份视频局部画面，原子性边界核验 |
+| [内容密度、显示稳定与操作反馈](sources/interface-detail-decisions.md) | UI / 交互 | ui-quality-checkpoints、ui-interaction-checkpoints | 4 份正文合并，未取得所称源码或完整演示 |
 
 ## 技能索引
 
