@@ -20,7 +20,7 @@
 
 | 分类 | 入口 | 自动选择的知识点 |
 | --- | --- | --- |
-| 前端 | [frontend-development-review](skills/frontend-development-review/SKILL.md) | 页面视觉、交互状态、请求与响应、登录交互和相关任务依赖 |
+| 前端 | [frontend-development-review](skills/frontend-development-review/SKILL.md) | 页面视觉、布局与主题、控件状态与反馈、滚动动效、请求与响应、登录交互和相关任务依赖 |
 | 后端 | [backend-development-review](skills/backend-development-review/SKILL.md) | 接口边界、业务不变量、访问授权、SQL/ORM、事务、缓存/异步、运行与发布 |
 | 通用工程与维护 | Git、依赖编排、资料整理等下方主题技能 | 按具体任务使用，前后端共享 |
 
@@ -50,9 +50,12 @@
 | [请求入口职责](sources/gateway-boundaries.md) | 系统设计 | architecture-tradeoff-checkpoints | 2 份概览补充现有技能 |
 | [身份与访问权限](sources/authentication-and-access.md) | 身份与权限 | auth-access-checkpoints | 3 份概览合并，一手语义核验 |
 | [发布与容器运行](sources/release-and-container-decisions.md) | 发布部署 | release-deployment-checkpoints | 6 份概览合并，版本边界核验 |
-
 | [界面一致性与视觉效果](sources/ui-quality-and-effects.md) | UI 视觉设计 | ui-quality-checkpoints | 2 份资料合并，设计建议条件化核验 |
 | [后端代码验收](sources/backend-code-acceptance.md) | 开发工具与工程实践 | web-request-checkpoints | 视频局部抽查，补充验收证据 |
+| [组件状态与反馈](sources/frontend-component-states.md) | 交互与可用性 | ui-interaction-checkpoints | 6 份完整正文，条件化纠错与工程补充 |
+| [布局、主题与层级](sources/layout-theme-elevation.md) | UI 视觉设计 / 设计到实现 | ui-quality-checkpoints | 3 份完整正文，补充布局和主题验证 |
+| [滚动动效决策](sources/scroll-motion-decisions.md) | Web 与前端 / 交互 | ui-quality-checkpoints | 3 份完整配文，未完整观看视频 |
+| [库存预留一致性](sources/reservation-consistency.md) | 系统设计 | architecture-tradeoff-checkpoints | 1 份视频局部画面，原子性边界核验 |
 
 ## 技能索引
 
@@ -70,8 +73,8 @@
 | [architecture-tradeoff-checkpoints](skills/architecture-tradeoff-checkpoints/SKILL.md) | 缓存、异步、容量与服务边界的取舍 | 资料与结构检查，未在真实项目验证 |
 | [auth-access-checkpoints](skills/auth-access-checkpoints/SKILL.md) | 身份来源、对象授权、会话与 SSO 边界 | 资料与结构检查，未运行真实系统测试 |
 | [release-deployment-checkpoints](skills/release-deployment-checkpoints/SKILL.md) | 流水线、制品、运行环境、就绪与版本恢复 | 资料与结构检查，未运行发布或容器实验 |
-
 | [ui-quality-checkpoints](skills/ui-quality-checkpoints/SKILL.md) | 界面层级、样式一致性、可读性与装饰动效取舍 | 资料与结构检查，未在真实页面试用 |
+| [ui-interaction-checkpoints](skills/ui-interaction-checkpoints/SKILL.md) | 控件状态、表单校验、异步反馈和模态选择 | 正文及一手资料核验，未在真实组件试用 |
 
 ## 跨项目使用
 

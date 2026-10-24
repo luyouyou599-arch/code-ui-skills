@@ -22,7 +22,7 @@ description: 在实现、修改或验收后端 API、业务服务、权限与数
 | 接口、外部调用、错误处理、多步写入或生成代码验收 | [web-request-checkpoints](../web-request-checkpoints/SKILL.md)，尤其其后端验收参考 | 输入边界、响应与业务结果、超时与重试、事务覆盖和重复副作用 |
 | 登录、受保护资源、用户/租户关系或角色变化 | [auth-access-checkpoints](../auth-access-checkpoints/SKILL.md) | 服务端对象授权、跨租户访问、身份过期和撤权；不以隐藏按钮证明权限安全 |
 | SQL/ORM、统计、关联、排序或分页 | [sql-query-checkpoints](../sql-query-checkpoints/SKILL.md) | 漏数、重复计数、空值、稳定排序、结果对象含义 |
-| 缓存、消息、异步或服务入口/边界 | [architecture-tradeoff-checkpoints](../architecture-tradeoff-checkpoints/SKILL.md) | 数据归属、一致性、重复消费、失效和故障传播，按实际机制检查 |
+| 缓存、消息、异步、库存/名额预留或服务入口/边界 | [architecture-tradeoff-checkpoints](../architecture-tradeoff-checkpoints/SKILL.md) | 数据归属、一致性、重复消费、原子预留与重试、失效和故障传播，按实际机制检查 |
 | 初始化步骤、任务前置关系 | [dependency-order-checkpoints](../dependency-order-checkpoints/SKILL.md) | 依赖方向、缺失节点、环、就绪与完成条件 |
 | 运行配置、流水线、部署或数据版本兼容 | [release-deployment-checkpoints](../release-deployment-checkpoints/SKILL.md) | 凭据来源、制品、失败门禁、持久化、恢复与兼容 |
 

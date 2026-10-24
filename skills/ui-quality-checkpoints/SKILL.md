@@ -1,13 +1,19 @@
 ---
 name: ui-quality-checkpoints
-description: 在实现或评审网页视觉、修整 AI 生成界面、选择装饰动效时，检查层级、样式一致性、可读性和交互降级；也用于从真实界面拆解设计取舍。适用于已有页面或具体设计目标，不自动重做品牌或建立完整设计系统。
+description: 在设计、实现或评审网页视觉、修整 AI 生成界面、选择装饰动效时，检查层级、样式一致性、可读性和交互降级；也用于从真实界面拆解设计取舍。适用于已有页面或具体设计目标，不自动重做品牌或建立完整设计系统。
 ---
 
 # 界面质量与效果取舍
 
 先读取目标页面、现有组件与设计变量、主要用户任务、设备和品牌约束。没有实际页面时只给候选方案，不能宣称已发现或修复问题。
 
-开发或评审时读取 [references/visual-decisions.md](references/visual-decisions.md)，把每项发现关联到具体组件、实际状态和修改后的验证证据。优先处理主次不清、不可读或无法操作的问题；保留有理由的视觉例外，避免把所有数值机械归一。
+设计新页面时，从用户任务和真实内容推导信息层级、布局约束与主题，形成可映射到组件和变量的选择，并说明验证计划；不因尚无页面就只罗列术语。
+
+设计、开发或评审时读取 [references/visual-decisions.md](references/visual-decisions.md)，把每项发现关联到具体组件、实际状态和修改后的验证证据。优先处理主次不清、不可读或无法操作的问题；保留有理由的视觉例外，避免把所有数值机械归一。
+
+涉及内容伸缩、响应式、浅深色或阴影层级时，读取 [references/layout-and-theme.md](references/layout-and-theme.md)。
+
+需要滚动展示、入场或叙事动效时，读取 [references/scroll-motion.md](references/scroll-motion.md)，先定义触发与退出及静态回退。
 
 需要装饰或动效时再读取 [references/optional-effects.md](references/optional-effects.md)。先明确效果服务的内容或反馈，选择最小必要范围，并定义触屏、键盘、减少动态效果和不支持效果时的表现。不因出现“高级感”一词就堆叠效果。
 
