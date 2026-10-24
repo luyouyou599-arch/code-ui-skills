@@ -20,13 +20,16 @@
 
 ## 资料索引
 
-尚未接收资料链接。
+| 资料 | 主分类 | 关联技能 | 状态 |
+| --- | --- | --- | --- |
+| [请求一个 URL 后发生了什么](sources/url-request-browser-journey.md) | 计算机基础 / 计算机网络 | explain-browser-navigation | 已整合；视频关键帧抽查与文档核验 |
 
 ## 技能索引
 
 | 技能 | 用途 | 状态 |
 | --- | --- | --- |
-| [curate-programming-ui](skills/curate-programming-ui/SKILL.md) | 将编程、UI 资料分类、提炼并整合为技能 | 已建立整理流程，尚未用真实来源验证 |
+| [curate-programming-ui](skills/curate-programming-ui/SKILL.md) | 将编程、UI 资料分类、提炼并整合为技能 | 已用于首份视频资料整理，未完成独立执行测试 |
+| [explain-browser-navigation](skills/explain-browser-navigation/SKILL.md) | 通俗解释网页加载流程，核查面试答案与协议边界 | 已核对资料和结构，未进行抓包或独立执行测试 |
 
 ## 跨项目使用
 
