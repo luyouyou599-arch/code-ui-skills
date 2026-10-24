@@ -68,6 +68,7 @@
 | [产品任务与成功标准](sources/product-task-and-success.md) | 产品与业务规则 | product-task-checkpoints | 3 份正文/配文及图文，补充任务基线与失败样本 |
 | [视觉角色与尺度一致性](sources/visual-role-consistency.md) | UI 视觉设计 | ui-quality-checkpoints | 7 份正文与配图合并，固定数值条件化 |
 | [加载反馈选择与禁用原因](sources/loading-feedback-selection.md) | 交互与可用性 | ui-interaction-checkpoints | 2 份正文及配图，补充阶段/成功边界 |
+| [多租户检索、会话与缓存](sources/tenant-context-isolation.md) | 身份与权限 / 后端 | auth-access-checkpoints | 1 份正文及 9 图，一手边界核验，未运行系统测试 |
 
 ## 技能索引
 
@@ -84,7 +85,7 @@
 | [sql-query-checkpoints](skills/sql-query-checkpoints/SKILL.md) | 后端查询 / 数据正确性 | JOIN、过滤、计数与分页的结果正确性 | 小型 SQL 边界样例验证 |
 | [dependency-order-checkpoints](skills/dependency-order-checkpoints/SKILL.md) | 工程编排 | 依赖方向、缺失节点、环和任务完成条件 | 标准库边界样例验证 |
 | [architecture-tradeoff-checkpoints](skills/architecture-tradeoff-checkpoints/SKILL.md) | 架构 / 可靠性 | 缓存、异步、容量与服务边界的取舍 | 资料与结构检查，未在真实项目验证 |
-| [auth-access-checkpoints](skills/auth-access-checkpoints/SKILL.md) | 后端身份 / 权限 | 身份来源、对象授权、会话与 SSO 边界 | 资料与结构检查，未运行真实系统测试 |
+| [auth-access-checkpoints](skills/auth-access-checkpoints/SKILL.md) | 后端身份 / 权限 | 身份来源、对象授权、会话/SSO 与多租户检索隔离 | 资料与结构检查，未运行真实系统测试 |
 | [release-deployment-checkpoints](skills/release-deployment-checkpoints/SKILL.md) | 发布 / 运行交付 | 流水线、制品、运行环境、就绪与版本恢复 | 资料与结构检查，未运行发布或容器实验 |
 | [ui-quality-checkpoints](skills/ui-quality-checkpoints/SKILL.md) | 视觉设计 / 前端呈现 | 界面层级、样式一致性、可读性与装饰动效取舍 | 资料与结构检查，未在真实页面试用 |
 | [ui-interaction-checkpoints](skills/ui-interaction-checkpoints/SKILL.md) | 交互 / 产品行为 | 控件状态、表单校验、异步反馈和模态选择 | 正文及一手资料核验，未在真实组件试用 |

@@ -38,7 +38,7 @@
 | 校验、验证码、分页衔接与快速状态变化 | [表单与加载](skills/ui-interaction-checkpoints/references/form-and-loading-continuity.md) |
 | 配置草稿、预览、排序与保存 | [配置编辑](skills/ui-interaction-checkpoints/references/configuration-editing.md) |
 | 请求错误、迟到响应、重试及写入结果 | [请求链路](skills/web-request-checkpoints/references/checkpoints.md)、[HTTP 语义](skills/web-request-checkpoints/references/http-semantics.md)、[后端验收](skills/web-request-checkpoints/references/backend-acceptance.md) |
-| 登录过期、对象/租户越权与会话变化 | [身份权限](skills/auth-access-checkpoints/references/decisions.md) |
+| 登录过期、对象/租户越权与会话变化 | [身份权限](skills/auth-access-checkpoints/references/decisions.md)、[租户检索/上下文/缓存](skills/auth-access-checkpoints/references/tenant-retrieval-isolation.md) |
 | JOIN、计数、过滤、分页结果 | [SQL 结果](skills/sql-query-checkpoints/references/checkpoints.md) |
 | 库存预留、重复副作用与中断恢复 | [库存一致性](skills/architecture-tradeoff-checkpoints/references/reservation-consistency.md) |
 | 环、缺失前置与任务完成条件 | [依赖顺序](skills/dependency-order-checkpoints/references/decisions.md) |
@@ -56,7 +56,7 @@
 | [ui-interaction-checkpoints](skills/ui-interaction-checkpoints/SKILL.md) | 交互与可用性 | 支持产品行为约定、前端实现和交互验收 |
 | [ui-quality-checkpoints](skills/ui-quality-checkpoints/SKILL.md) | 视觉与设计规则 | 支持前端布局/主题/动效实现及视觉验收 |
 | [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 跨端接口与数据交互 | 支持前端请求、后端契约和接口验收 |
-| [auth-access-checkpoints](skills/auth-access-checkpoints/SKILL.md) | 后端身份与资源权限 | 支持登录交互边界与权限负面测试 |
+| [auth-access-checkpoints](skills/auth-access-checkpoints/SKILL.md) | 后端身份与资源权限 | 支持登录交互、租户检索/记忆/缓存隔离与权限负面测试 |
 | [sql-query-checkpoints](skills/sql-query-checkpoints/SKILL.md) | 后端查询与结果正确性 | 支持统计业务口径、数据结果测试和项目拆解 |
 | [architecture-tradeoff-checkpoints](skills/architecture-tradeoff-checkpoints/SKILL.md) | 架构与可靠性 | 支持后端机制取舍、失败验证和项目拆解 |
 | [dependency-order-checkpoints](skills/dependency-order-checkpoints/SKILL.md) | 任务依赖与工程编排 | 支持初始化/工作流实现及依赖边界验证 |
