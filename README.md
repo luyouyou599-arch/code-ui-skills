@@ -58,13 +58,16 @@
 | [发布与容器运行](sources/release-and-container-decisions.md) | 发布部署 | release-deployment-checkpoints | 6 份概览合并，版本边界核验 |
 | [界面一致性与视觉效果](sources/ui-quality-and-effects.md) | UI 视觉设计 | ui-quality-checkpoints | 2 份资料合并，设计建议条件化核验 |
 | [后端代码验收](sources/backend-code-acceptance.md) | 开发工具与工程实践 | web-request-checkpoints | 视频局部抽查，补充验收证据 |
-| [组件状态与反馈](sources/frontend-component-states.md) | 交互与可用性 | ui-interaction-checkpoints | 6 份完整正文，条件化纠错与工程补充 |
-| [布局、主题与层级](sources/layout-theme-elevation.md) | UI 视觉设计 / 设计到实现 | ui-quality-checkpoints | 3 份完整正文，补充布局和主题验证 |
+| [组件状态与反馈](sources/frontend-component-states.md) | 交互与可用性 | ui-interaction-checkpoints | 6 份完整正文，已补读配图，条件化纠错与工程补充 |
+| [布局、主题与层级](sources/layout-theme-elevation.md) | UI 视觉设计 / 设计到实现 | ui-quality-checkpoints | 3 份完整正文及配图，补充布局和主题验证 |
 | [滚动动效决策](sources/scroll-motion-decisions.md) | Web 与前端 / 交互 | ui-quality-checkpoints | 3 份完整配文，未完整观看视频 |
 | [库存预留一致性](sources/reservation-consistency.md) | 系统设计 | architecture-tradeoff-checkpoints | 1 份视频局部画面，原子性边界核验 |
 | [内容密度、显示稳定与操作反馈](sources/interface-detail-decisions.md) | UI / 交互 | ui-quality-checkpoints、ui-interaction-checkpoints | 4 份正文合并，未取得所称源码或完整演示 |
 | [表单与加载连续性](sources/form-and-loading-continuity.md) | 交互 / Web 与前端 | ui-interaction-checkpoints、web-request-checkpoints | 3 份完整配文，未完整读取演示 |
 | [配置编辑与保存](sources/configuration-editing.md) | 交互 / Web 与前端 | ui-interaction-checkpoints、web-request-checkpoints | 1 份视频部分画面，含工程边界补充 |
+| [产品任务与成功标准](sources/product-task-and-success.md) | 产品与业务规则 | product-task-checkpoints | 2 份正文及全部 10 张图，工程应用推导 |
+| [视觉角色与尺度一致性](sources/visual-role-consistency.md) | UI 视觉设计 | ui-quality-checkpoints | 7 份正文与配图合并，固定数值条件化 |
+| [加载反馈选择与禁用原因](sources/loading-feedback-selection.md) | 交互与可用性 | ui-interaction-checkpoints | 2 份正文及配图，补充阶段/成功边界 |
 
 ## 技能索引
 
@@ -74,6 +77,7 @@
 | --- | --- | --- | --- |
 | [frontend-development-review](skills/frontend-development-review/SKILL.md) | 前端调用入口 | 前端开发与验收按需调用入口 | 已做结构与路由检查，未在真实项目试用 |
 | [backend-development-review](skills/backend-development-review/SKILL.md) | 后端调用入口 | 后端开发与验收按需调用入口 | 已做结构与路由检查，未在真实项目试用 |
+| [product-task-checkpoints](skills/product-task-checkpoints/SKILL.md) | 产品任务 / 验收约定 | 角色、任务结果、业务规则与验证证据 | 资料与结构检查，未在真实项目验证 |
 | [curate-programming-ui](skills/curate-programming-ui/SKILL.md) | 技能库维护 | 将编程、UI 资料分类、提炼并整合为技能 | 已用于首份视频资料整理，未完成独立执行测试 |
 | [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 跨端接口 / 数据交互 | 开发请求与页面加载功能时检查关键决策、遗漏项，并拆解项目实现与依据 | 已核对资料和结构，尚未在真实开发项目中验证 |
 | [git-change-checkpoints](skills/git-change-checkpoints/SKILL.md) | 工程协作 | 提交、同步、整合与撤销的场景决策 | 资料与结构检查，部分命令行为实验 |

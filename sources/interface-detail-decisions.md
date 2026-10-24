@@ -19,3 +19,5 @@
 去向：[界面质量](../skills/ui-quality-checkpoints/SKILL.md) 的 [内容与稳定性](../skills/ui-quality-checkpoints/references/content-and-stability.md)，以及 [交互检查](../skills/ui-interaction-checkpoints/SKILL.md) 的 [操作反馈](../skills/ui-interaction-checkpoints/references/action-feedback.md)。相关场景表与验证为整理者补充，未执行真实页面、媒体、剪贴板或业务请求测试。
 
 2026-10-24 核对：MDN font-variant-numeric、Clipboard.writeText、WAI 模态模式和 WCAG 非文本对比，具体链接在技能参考。
+
+2026-10-24 补读：确定/取消来源的全部 3 张配图已核对，其按钮顺序、尺寸比和固定文案长度仍只视为案例建议；其余来源的覆盖范围不变。

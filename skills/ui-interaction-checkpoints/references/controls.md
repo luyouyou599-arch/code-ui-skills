@@ -11,4 +11,4 @@
 
 核验于 2026-10-24：[WCAG 2.5.8 点击目标](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)、[WAI 控件标签](https://www.w3.org/WAI/tutorials/forms/labels/)、[APG Combobox](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/)。最后一项只用于确实实现 combobox 的控件，不将菜单、列表框与选择框混为同一组件。
 
-网络媒体正文已读，附图未逐张完整核验：[按钮状态](https://www.xiaohongshu.com/explore/6abbc65f000000000200d68a)、[点击热区](https://www.xiaohongshu.com/explore/6ad77390000000002603a2e7)、[输入状态](https://www.xiaohongshu.com/explore/6ac232910000000002010ce5)、[选择状态](https://www.xiaohongshu.com/explore/6ac4d595000000001a0313da)。表格含整理者工程补充；尚未在真实组件验证。
+网络媒体正文已读，相关附图已于 2026-10-24 补读：[按钮状态](https://www.xiaohongshu.com/explore/6abbc65f000000000200d68a)、[点击热区](https://www.xiaohongshu.com/explore/6ad77390000000002603a2e7)、[输入状态](https://www.xiaohongshu.com/explore/6ac232910000000002010ce5)、[选择状态](https://www.xiaohongshu.com/explore/6ac4d595000000001a0313da)。表格含整理者工程补充；尚未在真实组件验证。

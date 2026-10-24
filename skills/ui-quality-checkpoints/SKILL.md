@@ -11,6 +11,8 @@ description: 在设计、实现或评审网页视觉、修整 AI 生成界面、
 
 设计、开发或评审时读取 [references/visual-decisions.md](references/visual-decisions.md)，把每项发现关联到具体组件、实际状态和修改后的验证证据。优先处理主次不清、不可读或无法操作的问题；保留有理由的视觉例外，避免把所有数值机械归一。
 
+涉及图标尺寸/视觉重量、字体角色或抽象视觉目标时，读取 [references/visual-roles.md](references/visual-roles.md)。
+
 涉及重复文案、变化数字或流式内容显示时，读取 [references/content-and-stability.md](references/content-and-stability.md)，区分必要信息、风格选择与真实状态。
 
 涉及内容伸缩、响应式、浅深色或阴影层级时，读取 [references/layout-and-theme.md](references/layout-and-theme.md)。

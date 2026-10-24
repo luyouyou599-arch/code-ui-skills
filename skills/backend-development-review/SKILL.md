@@ -19,6 +19,7 @@ description: 在实现、修改或验收后端 API、业务服务、权限与数
 
 | 触发条件 | 按需调用 | 重点查找 |
 | --- | --- | --- |
+| 功能目标、角色、业务行为或验收预期不清 | [product-task-checkpoints](../product-task-checkpoints/SKILL.md) | 使用情境、成功结果、允许/拒绝规则与可观察副作用；只补当前缺口 |
 | 接口、外部调用、错误处理、多步写入或生成代码验收 | [web-request-checkpoints](../web-request-checkpoints/SKILL.md)，尤其其后端验收参考 | 输入边界、响应与业务结果、超时与重试、事务覆盖和重复副作用 |
 | 登录、受保护资源、用户/租户关系或角色变化 | [auth-access-checkpoints](../auth-access-checkpoints/SKILL.md) | 服务端对象授权、跨租户访问、身份过期和撤权；不以隐藏按钮证明权限安全 |
 | SQL/ORM、统计、关联、排序或分页 | [sql-query-checkpoints](../sql-query-checkpoints/SKILL.md) | 漏数、重复计数、空值、稳定排序、结果对象含义 |

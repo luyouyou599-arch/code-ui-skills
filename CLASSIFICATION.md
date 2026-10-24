@@ -6,7 +6,7 @@
 
 | 用途 | 核心问题 | 现有内容与入口 | 当前边界 |
 | --- | --- | --- | --- |
-| 产品与业务规则 | 给谁用、完成什么任务、哪些条件允许、失败后怎么办 | [交互检查](skills/ui-interaction-checkpoints/SKILL.md) 中的动作/状态/恢复；[后端入口](skills/backend-development-review/SKILL.md) 中的业务不变量 | 目前主要覆盖具体功能的行为约定；没有完整的用户研究、需求优先级、产品定位或指标设计技能 |
+| 产品与业务规则 | 给谁用、完成什么任务、哪些条件允许、失败后怎么办 | [产品任务](skills/product-task-checkpoints/SKILL.md) 中的角色、任务和成功证据；[交互检查](skills/ui-interaction-checkpoints/SKILL.md) 中的动作/状态/恢复；[后端入口](skills/backend-development-review/SKILL.md) 中的业务不变量 | 覆盖具体功能的任务/行为/验收约定；没有完整的用户研究、需求优先级、市场定位或统计实验设计技能 |
 | 交互与可用性 | 用户怎样操作、怎样知道结果、怎样恢复 | [ui-interaction-checkpoints](skills/ui-interaction-checkpoints/SKILL.md)：表单、组件状态、反馈、模态、排序与配置 | 与产品行为、视觉表达、前端实现和验收交叉；不证明后端授权或持久化正确 |
 | 视觉与设计系统 | 信息怎样分层、样式怎样一致、效果何时合适 | [ui-quality-checkpoints](skills/ui-quality-checkpoints/SKILL.md)：布局、字体/颜色/间距、主题、阴影、内容密度与动效 | 已有的是视觉规则与实现检查，尚不是完整的品牌、组件资产库或设计系统治理能力 |
 | 前端实现与数据交互 | 页面如何把操作、请求、状态和渲染连接起来 | [frontend-development-review](skills/frontend-development-review/SKILL.md) 按需组合视觉、交互和 [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 请求技能跨前后端；当前不是完整的框架架构、状态管理或前端构建工具知识库 |
@@ -52,6 +52,7 @@
 | --- | --- | --- |
 | [frontend-development-review](skills/frontend-development-review/SKILL.md) | 前端任务调用入口 | 组织设计、实现和验收，不是一份新的视觉规范 |
 | [backend-development-review](skills/backend-development-review/SKILL.md) | 后端任务调用入口 | 组织业务、接口、数据、安全相关检查和验收 |
+| [product-task-checkpoints](skills/product-task-checkpoints/SKILL.md) | 产品任务与功能约定 | 支持前后端规则衔接、验收场景与项目目标拆解 |
 | [ui-interaction-checkpoints](skills/ui-interaction-checkpoints/SKILL.md) | 交互与可用性 | 支持产品行为约定、前端实现和交互验收 |
 | [ui-quality-checkpoints](skills/ui-quality-checkpoints/SKILL.md) | 视觉与设计规则 | 支持前端布局/主题/动效实现及视觉验收 |
 | [web-request-checkpoints](skills/web-request-checkpoints/SKILL.md) | 跨端接口与数据交互 | 支持前端请求、后端契约和接口验收 |

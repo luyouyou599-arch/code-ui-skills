@@ -22,4 +22,4 @@
 
 2026-10-24 核对：[MDN min-width](https://developer.mozilla.org/en-US/docs/Web/CSS/min-width)、[系统配色偏好](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)、[WCAG 文字对比](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)。没有强制全项目重建主题或设计系统。
 
-网络媒体完整正文已读，附图未逐张完整核验：[自动布局](https://www.xiaohongshu.com/explore/6acf554a0000000001009352)、[深色主题](https://www.xiaohongshu.com/explore/6ad60ee00000000029012c0d)、[阴影层级](https://www.xiaohongshu.com/explore/6adb43ae0000000033010da2)。以上为整理者工程化补充与适用条件修正；未实测具体页面。
+网络媒体完整正文已读，相关附图已于 2026-10-24 补读：[自动布局](https://www.xiaohongshu.com/explore/6acf554a0000000001009352)、[深色主题](https://www.xiaohongshu.com/explore/6ad60ee00000000029012c0d)、[阴影层级](https://www.xiaohongshu.com/explore/6adb43ae0000000033010da2)。以上为整理者工程化补充与适用条件修正；未实测具体页面。

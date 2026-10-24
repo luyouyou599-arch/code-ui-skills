@@ -12,4 +12,14 @@
 
 核验于 2026-10-24：[WAI 表单通知](https://www.w3.org/WAI/tutorials/forms/notifications/)、[APG 模态对话框](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/)。APG 是交互模式参考，仍需结合实现与设备验证。
 
-网络媒体正文已读，附图未逐张完整核验：[空、加载、错误与断网状态](https://www.xiaohongshu.com/explore/6ac0e24e000000001b022746)、[弹窗、Toast 与页内提示](https://www.xiaohongshu.com/explore/6abe55aa0000000018014bf7)。场景表为条件化改写与工程补充；未运行真实页面验收。
+网络媒体正文已读，相关附图已于 2026-10-24 补读：[空、加载、错误与断网状态](https://www.xiaohongshu.com/explore/6ac0e24e000000001b022746)、[弹窗、Toast 与页内提示](https://www.xiaohongshu.com/explore/6abe55aa0000000018014bf7)。场景表为条件化改写与工程补充；未运行真实页面验收。
+
+## 等待阶段与可计算进度
+
+按内容结构是否已知、进度是否能可靠计算选择反馈，不按固定秒数强制套组件。按压反馈只表示收到输入；提交中表示仍在执行；业务成功需以实际结果为准。上传字节传完不代表服务端处理和保存完成，必要时分别表达阶段。未知总量不用虚构百分比或剩余时间。
+
+对长时任务按业务选择取消、后台继续或查询结果；最终响应丢失时不能只因超时重发有副作用操作。按钮禁用用于减少重复操作，服务端仍需按请求语义保障结果。禁用原因放在用户能发现并理解的位置，不只放在无法聚焦的按钮悬浮提示里。
+
+验证短等待是否闪烁、长等待是否可理解、进度与阶段是否一致、失败后输入和重试是否恢复。未测量时不声称满足 100ms 或固定成功率。
+
+新增来源：网络媒体 [加载方式](https://www.xiaohongshu.com/explore/6ad0a40c000000001501071a)（正文与 4 图）、[交互细节](https://www.xiaohongshu.com/explore/6abd084700000000180287ff)（正文与 3 图），2026-10-24。阶段/重试等为整理者补充。[WAI APG](https://www.w3.org/WAI/ARIA/apg/patterns/meter/) 区分 meter 与 progressbar；这里未执行真实组件验收。
