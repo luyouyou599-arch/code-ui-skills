@@ -14,7 +14,7 @@ description: 在设计、开发或验收网页页面、交互组件、表单与�
 | 本次 AI 功能涉及模型结果、检索或工具调用的质量与回归 | [ai-workflow-evaluation-checkpoints](../ai-workflow-evaluation-checkpoints/SKILL.md) | 任务样本、判定标准与调用证据；纯界面样式不加载 |
 | 功能目标、角色、业务行为或验收预期不清 | [product-task-checkpoints](../product-task-checkpoints/SKILL.md) | 使用情境、成功结果、允许/拒绝规则与可观察副作用；只补当前缺口 |
 | 布局、组件样式、AI 生成初稿或动效 | [ui-quality-checkpoints](../ui-quality-checkpoints/SKILL.md) | 信息层级、样式一致性、真实内容、响应式、键盘/触屏与动效降级 |
-| 按钮、表单、选择器、配置/排序、异步反馈和弹窗 | [ui-interaction-checkpoints](../ui-interaction-checkpoints/SKILL.md) | 状态转换、恢复路径、焦点、键盘与触屏操作 |
+| 按钮、表单、选择器、搜索/筛选、配置/排序、异步反馈和弹窗 | [ui-interaction-checkpoints](../ui-interaction-checkpoints/SKILL.md) | 状态转换、恢复路径、焦点、键盘与触屏操作 |
 | 表单提交、页面加载、API 数据与缓存 | [web-request-checkpoints](../web-request-checkpoints/SKILL.md) | 加载/空/错/成功状态、重复提交、错误响应、旧请求覆盖新状态及缓存条件，依据项目实现验证 |
 | 登录状态或权限相关交互 | [auth-access-checkpoints](../auth-access-checkpoints/SKILL.md) 的相关边界 | 过期后的界面与数据清理；前端隐藏入口不能证明后端资源授权 |
 | 当前任务包含提交评审、处理评审发现或同步改动 | [git-change-checkpoints](../git-change-checkpoints/SKILL.md) | 差异范围、发现证据、修复收敛与提交对应的审批；仅在涉及协作交付时加载 |

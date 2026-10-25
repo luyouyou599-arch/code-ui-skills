@@ -36,6 +36,7 @@
 | 视觉、长内容、宽窄屏、主题与动效降级 | [视觉检查](skills/ui-quality-checkpoints/references/visual-decisions.md)、[布局与主题](skills/ui-quality-checkpoints/references/layout-and-theme.md) |
 | 键盘/触屏、控件状态、消息与恢复 | [控件](skills/ui-interaction-checkpoints/references/controls.md)、[反馈](skills/ui-interaction-checkpoints/references/feedback.md) |
 | 校验、验证码、分页衔接与快速状态变化 | [表单与加载](skills/ui-interaction-checkpoints/references/form-and-loading-continuity.md) |
+| 搜索展开、建议选择、筛选与结果重排 | [搜索状态衔接](skills/ui-interaction-checkpoints/references/search-state-continuity.md) |
 | 配置草稿、预览、排序与保存 | [配置编辑](skills/ui-interaction-checkpoints/references/configuration-editing.md) |
 | AI 适配比较、意图误路由与实际工具执行 | [适配、路由与执行样本](skills/ai-workflow-evaluation-checkpoints/references/adaptation-routing-execution.md) |
 | 模型输出、检索和工具调用是否完成任务 | [AI 功能评测](skills/ai-workflow-evaluation-checkpoints/SKILL.md)、[评测证据](skills/ai-workflow-evaluation-checkpoints/references/evaluation-evidence.md) |

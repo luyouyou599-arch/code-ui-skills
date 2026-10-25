@@ -73,6 +73,7 @@
 | [AI 功能评测证据](sources/ai-workflow-evaluation.md) | 测试 / AI 工程 | ai-workflow-evaluation-checkpoints | 3 份来源：局部视频、完整配文及官方文档；未运行模型评测 |
 | [AI 适配、路由与执行](sources/ai-routing-tools-and-adaptation.md) | AI / 测试 | ai-workflow-evaluation-checkpoints | 4 份视频局部知识已整合，完整视频均待补读；一手核验，未运行模型测试 |
 | [任务可发现性、恢复与效率](sources/task-recovery-and-efficiency.md) | 交互 / 产品 / 前端 | ui-interaction-checkpoints、ui-quality-checkpoints | 8 份完整配文，未完整读取视频；条件化合并 |
+| [搜索衔接与限时消息](sources/search-and-transient-feedback.md) | 交互 / 前端验收 | ui-interaction-checkpoints | 搜索完整配文与局部视频、Toast完整正文与3图；一手核验，未运行组件测试 |
 | [运行时安全更新](sources/runtime-security-updates.md) | 工程交付 / 后端运行安全 | release-deployment-checkpoints | 完整配文及官方公告核验；未执行升级 |
 | [代码评审证据与收敛](sources/review-evidence-and-convergence.md) | 工程协作 / 测试 | git-change-checkpoints | 完整配文及一手工程记录；未实测评审器 |
 

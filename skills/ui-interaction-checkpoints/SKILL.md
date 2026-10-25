@@ -1,6 +1,6 @@
 ---
 name: ui-interaction-checkpoints
-description: 在设计、实现或验收按钮、输入框、选择控件、配置面板、排序、批量操作、就近帮助、日期防错、加载/空/错状态及弹窗消息时，将用户动作映射到状态转换、恢复路径和可访问交互，发现缺失反馈与操作问题。适用于网页具体交互，不代替后端授权或业务幂等验证。
+description: 在设计、实现或验收按钮、输入框、选择控件、搜索/筛选、配置面板、排序、批量操作、就近帮助、日期防错、加载/空/错状态及弹窗消息时，将用户动作映射到状态转换、恢复路径和可访问交互，发现缺失反馈与操作问题。适用于网页具体交互，不代替后端授权或业务幂等验证。
 ---
 
 # 组件状态与用户反馈
@@ -8,6 +8,7 @@ description: 在设计、实现或验收按钮、输入框、选择控件、配�
 先读取用户任务、真实数据/接口行为、项目现有组件库及平台约束。新设计从动作与预期结果定义交互；已有实现从实际组件、事件与状态检查。只覆盖当前功能有关的状态，不把所有控件机械凑成固定数量的状态图。
 
 - 按钮、输入、选择、点击热区：按需读取 [references/controls.md](references/controls.md)。
+- 搜索展开、异步建议、筛选与结果重排：按需读取 [references/search-state-continuity.md](references/search-state-continuity.md)。
 - 异步页面、提交反馈、弹窗和消息：按需读取 [references/feedback.md](references/feedback.md)。
 
 实现自动/异步校验、验证码、分页加载、图片占位、快速状态切换或长按时，按需读取 [references/form-and-loading-continuity.md](references/form-and-loading-continuity.md)，核对过程衔接和中断恢复。
