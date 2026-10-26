@@ -29,7 +29,7 @@
 | 多租户检索与上下文隔离 | [tenant-context-isolation.md](tenant-context-isolation.md) | 1 | [auth-access-checkpoints](../skills/auth-access-checkpoints/SKILL.md) |
 | 可见目标与标签热区 | [visible-and-clickable-targets.md](visible-and-clickable-targets.md) | 1 | [ui-interaction-checkpoints](../skills/ui-interaction-checkpoints/SKILL.md) |
 | AI 功能评测证据 | [ai-workflow-evaluation.md](ai-workflow-evaluation.md) | 3 | [ai-workflow-evaluation-checkpoints](../skills/ai-workflow-evaluation-checkpoints/SKILL.md) |
-| AI 适配、路由与执行 | [ai-routing-tools-and-adaptation.md](ai-routing-tools-and-adaptation.md) | 4 | [ai-workflow-evaluation-checkpoints](../skills/ai-workflow-evaluation-checkpoints/SKILL.md)（局部整合，完整视频待补读） |
+| AI 适配、路由与执行 | [ai-routing-tools-and-adaptation.md](ai-routing-tools-and-adaptation.md) | 4 | [ai-workflow-evaluation-checkpoints](../skills/ai-workflow-evaluation-checkpoints/SKILL.md)（补充工具选择验收，完整视频待补读） |
 | 任务可发现性、恢复与效率 | [task-recovery-and-efficiency.md](task-recovery-and-efficiency.md) | 8 | [ui-interaction-checkpoints](../skills/ui-interaction-checkpoints/SKILL.md)、[ui-quality-checkpoints](../skills/ui-quality-checkpoints/SKILL.md) |
 | 搜索衔接与限时消息 | [search-and-transient-feedback.md](search-and-transient-feedback.md) | 2 | [ui-interaction-checkpoints](../skills/ui-interaction-checkpoints/SKILL.md) |
 | 运行时安全更新 | [runtime-security-updates.md](runtime-security-updates.md) | 1 | [release-deployment-checkpoints](../skills/release-deployment-checkpoints/SKILL.md) |

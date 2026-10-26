@@ -19,6 +19,8 @@
 
 对应用自定义工具，分别判断工具选择、参数语义、执行及结果回传；模型给出调用请求不代表操作已完成。若用托管工具，先确认实际执行方与可见结果契约。
 
+当多个工具能力相近或工具清单变化时，检查实际发送给模型的名称、描述与参数约束是否能区分用途、返回内容及限制。用“查状态 / 改状态”等相邻任务、无需工具即可完成的任务及缺必要信息的任务比较选择结果；记录预期工具、实际选择或未调用、参数和最终结果。误选时先定位是描述歧义、可用工具不对还是上游路由错误；只改描述后也需回归相邻任务，不把 schema 合法当成选对工具。此组样本是根据媒体线索与官方工具定义文档补充的工程推导，未实跑。
+
 可选样本：同义表达是否映射到正确单位/地点/业务对象；必要参数缺失是否澄清；合法类型但错误对象/过期数据是否被执行层拒绝；未调用、执行失败或部分成功后，最终回答是否仍声称完成。参数 schema 校验与服务端对象授权、业务约束是不同检查，不能让模型传入的身份字段代替可信身份。
 
 有副作用时按真实接口的幂等、超时和重试语义验证；调用 ID 用于关联结果，不能自动当业务幂等键。并发或重试测试只在已授权的隔离环境执行。反馈结论与实际持久化/第三方结果对照；不以回答“已成功”作为断言。
@@ -28,3 +30,5 @@
 网络媒体：[微调与 RAG](https://www.xiaohongshu.com/explore/6ad746cd000000002901168d)、[RAG 准确性](https://www.xiaohongshu.com/explore/6ace082b000000000a0226b5)、[Function Call](https://www.xiaohongshu.com/explore/6aca0d09000000001303f322)、[意图识别](https://www.xiaohongshu.com/explore/6ac8733e000000001403901a)。均仅简短配文与离散画面已读，**完整视频待补读**；上述检查是整理者工程推导，不能当完整视频摘要。
 
 2026-10-24 核对 [Google Cloud 的检索/调优用途](https://docs.cloud.google.com/docs/ai-ml/generative-ai/develop-generative-ai-application)、[RAG 过程与结果评测](https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/rag-evaluators?view=foundry)、[客户端/托管工具契约](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works)、[意图路由](https://docs.typesafe.ai/patterns/intent-routing) 和 [confidence](https://docs.typesafe.ai/confidence)。不绑定具体厂商、模型或示例阈值；未实际运行这些样本。
+
+2026-10-26 补读 Function Call 的工具数量与描述线索，核对 [工具定义与描述](https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools) 中用途、参数及限制的说明；用于补充工具选择对照样本，不采用固定描述句数、固定工具数量或统一合并工具的要求。
